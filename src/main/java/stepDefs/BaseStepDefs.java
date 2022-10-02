@@ -13,7 +13,7 @@ import java.util.Properties;
 public class BaseStepDefs {
     private static WebDriver driver;
 
-    private static Properties properties = TestProperties.getInstance().getProperties();
+    private static final Properties properties = TestProperties.getInstance().getProperties();
 
     public static Properties getProperties() {
         return properties;

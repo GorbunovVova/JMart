@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
         features = "src/test/features",
         glue = {"stepDefs"},
         plugin = {"io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm", "pretty"},
-        tags = "@all"
+        tags = "@ui"
 )
 public class TestRunner {
 }
